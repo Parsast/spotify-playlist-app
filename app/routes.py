@@ -88,15 +88,7 @@ def get_saved_tracks():
 
 @app.route('/preferences', methods=['GET', 'POST'])
 def preferences():
-    size = None
-    danceability = None
-    acousticness = None
-    energy = None
-    liveness = None
-    loudness = None
-    speechiness = None
-    tempo = None
-    valence = None
+    
     if request.method == 'POST':
         size = request.form.get("size")
         danceability = request.form.get('danceability')
@@ -108,43 +100,57 @@ def preferences():
         tempo = request.form.get("tempo")
         valence = request.form.get("valence")
         try:
-            danceability = float(danceability)
-            acousticness = float(acousticness)
+            target_danceability = float(danceability)
+            target_acousticness = float(acousticness)
             size = int(size)
             target_energy = float(energy)
-            liveness = float(liveness)
-            loudness = float(loudness)
-            speechiness = float(speechiness)
-            tempo = float(tempo)
-            valence =  float(valence)
+            target_liveness = float(liveness)
+            target_loudness = float(loudness)
+            target_speechiness = float(speechiness)
+            target_tempo = float(tempo)
+            target_valence =  float(valence)
             if not (1<= size <=20):
                 raise ValueError("The parameter size must be a integer between 1 to 20")
-            if not (0 <=danceability <=1):
+            if not (0 <=target_danceability<=1):
                 raise ValueError("must be between 0 and 1")
-            if not (0 <=acousticness <=1):
+            if not (0 <=target_acousticness <=1):
                 raise ValueError("must be between 0 and 1")
             if not (0 <= target_energy <=1):
                 raise ValueError("energy value must be between 0 to 1")
-            if not (0 <= liveness <= 1):
+            if not (0 <= target_liveness<= 1):
                 raise ValueError("liveness value must be between 0 to 1")
-            if not (0 <=speechiness <= 1):
+            if not (0 <=target_speechiness<= 1):
                 raise ValueError("speechiness value must be between 0 to 1")
-            if not (tempo >= 0):
+            if not (target_tempo>= 0):
                 raise ValueError("Tempo value must be bigger than 0")
-            if not (valence >= 0):
+            if not (target_valence>= 0):
                 raise ValueError("Valence value must be between 0 and 1")
-            
-
-            return redirect(url_for('index'))  
-        except ValueError as e:
-            return render_template('preferences.html', error = str(e))
-        clusters = cluster_kmeans("saved_tracks.json",
+            clusters = cluster_kmeans("saved_tracks.json",
                                         os.getenv('SPOTIFY_CLIENT_ID'),
                                         os.getenv('SPOTIFY_CLIENT_SECRET'),None, 3600)
-        artists, tracks = clusters.kmeans(k =5, n = 1)
-        recommended_tracks = clusters.get_recommended_tracks(seed_artists = artists,
-                                                        seed_tracks = tracks, 
-                                                        target_energy= target_energy)
-        with open("recommendations.json", "w")as f:
-            json.dump(recommended_tracks, f, indent = 4)
+            artists, tracks = clusters.kmeans(k =5, n = 2)
+            recommended_tracks = clusters.get_recommended_tracks(seed_artists = artists,
+                                                        seed_tracks = tracks,
+                                                        target_danceability= target_danceability,
+                                                        target_acousticness = target_acousticness, 
+                                                        target_energy= target_energy,
+                                                        target_liveness =target_liveness,
+                                                        target_speechiness=target_speechiness,
+                                                        target_tempo=target_tempo,
+                                                        target_valence=target_valence)
+            with open("recommendations.json", "w")as f:
+                json.dump(recommended_tracks, f, indent = 4)
+
+            return redirect(url_for('recommended_songs'))  
+        except ValueError as e:
+            return render_template('preferences.html', error = str(e))
+        
     return render_template('preferences.html')
+
+@app.route('/recommended_songs')
+def recommended_songs():
+
+    with open('/Users/parsa/codes/spotify playlist app/recommendations.json', 'r') as file:
+        tracks = json.load(file)["tracks"]
+        print(tracks[0])  
+    return render_template('recommended_songs.html', tracks=tracks)

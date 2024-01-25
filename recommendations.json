@@ -2,17 +2,27 @@
     "tracks": [
         {
             "album": {
-                "album_type": "ALBUM",
+                "album_type": "SINGLE",
                 "artists": [
                     {
                         "external_urls": {
-                            "spotify": "https://open.spotify.com/artist/5aMIbwZQvP2MHPMVC5zCGj"
+                            "spotify": "https://open.spotify.com/artist/4IWBUUAFIplrNtaOHcJPRM"
                         },
-                        "href": "https://api.spotify.com/v1/artists/5aMIbwZQvP2MHPMVC5zCGj",
-                        "id": "5aMIbwZQvP2MHPMVC5zCGj",
-                        "name": "ODIE",
+                        "href": "https://api.spotify.com/v1/artists/4IWBUUAFIplrNtaOHcJPRM",
+                        "id": "4IWBUUAFIplrNtaOHcJPRM",
+                        "name": "James Arthur",
                         "type": "artist",
-                        "uri": "spotify:artist:5aMIbwZQvP2MHPMVC5zCGj"
+                        "uri": "spotify:artist:4IWBUUAFIplrNtaOHcJPRM"
+                    },
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/1zNqDE7qDGCsyzJwohVaoX"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/1zNqDE7qDGCsyzJwohVaoX",
+                        "id": "1zNqDE7qDGCsyzJwohVaoX",
+                        "name": "Anne-Marie",
+                        "type": "artist",
+                        "uri": "spotify:artist:1zNqDE7qDGCsyzJwohVaoX"
                     }
                 ],
                 "available_markets": [
@@ -202,44 +212,54 @@
                     "XK"
                 ],
                 "external_urls": {
-                    "spotify": "https://open.spotify.com/album/1SgtXskC74No0x9a9iDlfw"
+                    "spotify": "https://open.spotify.com/album/4i7GEsKuuCtECD5l0VUctL"
                 },
-                "href": "https://api.spotify.com/v1/albums/1SgtXskC74No0x9a9iDlfw",
-                "id": "1SgtXskC74No0x9a9iDlfw",
+                "href": "https://api.spotify.com/v1/albums/4i7GEsKuuCtECD5l0VUctL",
+                "id": "4i7GEsKuuCtECD5l0VUctL",
                 "images": [
                     {
                         "height": 640,
-                        "url": "https://i.scdn.co/image/ab67616d0000b273e8f1f55f14d93b24f7cf8d5e",
+                        "url": "https://i.scdn.co/image/ab67616d0000b273fdcd66dc526a25e1555ae81d",
                         "width": 640
                     },
                     {
                         "height": 300,
-                        "url": "https://i.scdn.co/image/ab67616d00001e02e8f1f55f14d93b24f7cf8d5e",
+                        "url": "https://i.scdn.co/image/ab67616d00001e02fdcd66dc526a25e1555ae81d",
                         "width": 300
                     },
                     {
                         "height": 64,
-                        "url": "https://i.scdn.co/image/ab67616d00004851e8f1f55f14d93b24f7cf8d5e",
+                        "url": "https://i.scdn.co/image/ab67616d00004851fdcd66dc526a25e1555ae81d",
                         "width": 64
                     }
                 ],
-                "name": "Analogue",
-                "release_date": "2018-04-06",
+                "name": "Rewrite The Stars (with James Arthur & Anne-Marie)",
+                "release_date": "2018-10-25",
                 "release_date_precision": "day",
-                "total_tracks": 10,
+                "total_tracks": 1,
                 "type": "album",
-                "uri": "spotify:album:1SgtXskC74No0x9a9iDlfw"
+                "uri": "spotify:album:4i7GEsKuuCtECD5l0VUctL"
             },
             "artists": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/5aMIbwZQvP2MHPMVC5zCGj"
+                        "spotify": "https://open.spotify.com/artist/4IWBUUAFIplrNtaOHcJPRM"
                     },
-                    "href": "https://api.spotify.com/v1/artists/5aMIbwZQvP2MHPMVC5zCGj",
-                    "id": "5aMIbwZQvP2MHPMVC5zCGj",
-                    "name": "ODIE",
+                    "href": "https://api.spotify.com/v1/artists/4IWBUUAFIplrNtaOHcJPRM",
+                    "id": "4IWBUUAFIplrNtaOHcJPRM",
+                    "name": "James Arthur",
                     "type": "artist",
-                    "uri": "spotify:artist:5aMIbwZQvP2MHPMVC5zCGj"
+                    "uri": "spotify:artist:4IWBUUAFIplrNtaOHcJPRM"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1zNqDE7qDGCsyzJwohVaoX"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1zNqDE7qDGCsyzJwohVaoX",
+                    "id": "1zNqDE7qDGCsyzJwohVaoX",
+                    "name": "Anne-Marie",
+                    "type": "artist",
+                    "uri": "spotify:artist:1zNqDE7qDGCsyzJwohVaoX"
                 }
             ],
             "available_markets": [
@@ -429,23 +449,23 @@
                 "XK"
             ],
             "disc_number": 1,
-            "duration_ms": 196799,
-            "explicit": true,
+            "duration_ms": 218293,
+            "explicit": false,
             "external_ids": {
-                "isrc": "USUYG1186923"
+                "isrc": "USAT21811554"
             },
             "external_urls": {
-                "spotify": "https://open.spotify.com/track/63bAGRSSX2V1hhPSP2NpBC"
+                "spotify": "https://open.spotify.com/track/6mQLN3zRtAp6ovjusyYKrV"
             },
-            "href": "https://api.spotify.com/v1/tracks/63bAGRSSX2V1hhPSP2NpBC",
-            "id": "63bAGRSSX2V1hhPSP2NpBC",
+            "href": "https://api.spotify.com/v1/tracks/6mQLN3zRtAp6ovjusyYKrV",
+            "id": "6mQLN3zRtAp6ovjusyYKrV",
             "is_local": false,
-            "name": "North Face",
-            "popularity": 67,
-            "preview_url": "https://p.scdn.co/mp3-preview/9b8e9dd992b5fd3d4712afed2234ec63a083bcc0?cid=c7d8869f7af34cbf8087e1c2e446b38a",
-            "track_number": 2,
+            "name": "Rewrite The Stars (with James Arthur & Anne-Marie)",
+            "popularity": 84,
+            "preview_url": "https://p.scdn.co/mp3-preview/cf2a0c017f413de261c49290bf41a6d4fe5551d3?cid=c7d8869f7af34cbf8087e1c2e446b38a",
+            "track_number": 1,
             "type": "track",
-            "uri": "spotify:track:63bAGRSSX2V1hhPSP2NpBC"
+            "uri": "spotify:track:6mQLN3zRtAp6ovjusyYKrV"
         },
         {
             "album": {
@@ -453,13 +473,13 @@
                 "artists": [
                     {
                         "external_urls": {
-                            "spotify": "https://open.spotify.com/artist/4uaGojdWj4H6cTJydZUPWG"
+                            "spotify": "https://open.spotify.com/artist/687cZJR45JO7jhk1LHIbgq"
                         },
-                        "href": "https://api.spotify.com/v1/artists/4uaGojdWj4H6cTJydZUPWG",
-                        "id": "4uaGojdWj4H6cTJydZUPWG",
-                        "name": "Christian Kuria",
+                        "href": "https://api.spotify.com/v1/artists/687cZJR45JO7jhk1LHIbgq",
+                        "id": "687cZJR45JO7jhk1LHIbgq",
+                        "name": "Tems",
                         "type": "artist",
-                        "uri": "spotify:artist:4uaGojdWj4H6cTJydZUPWG"
+                        "uri": "spotify:artist:687cZJR45JO7jhk1LHIbgq"
                     }
                 ],
                 "available_markets": [
@@ -649,44 +669,44 @@
                     "XK"
                 ],
                 "external_urls": {
-                    "spotify": "https://open.spotify.com/album/5qoVwu8l7VyXOiMjjmyeAD"
+                    "spotify": "https://open.spotify.com/album/2sU8ByeYc5BOBFNDr58CGV"
                 },
-                "href": "https://api.spotify.com/v1/albums/5qoVwu8l7VyXOiMjjmyeAD",
-                "id": "5qoVwu8l7VyXOiMjjmyeAD",
+                "href": "https://api.spotify.com/v1/albums/2sU8ByeYc5BOBFNDr58CGV",
+                "id": "2sU8ByeYc5BOBFNDr58CGV",
                 "images": [
                     {
                         "height": 640,
-                        "url": "https://i.scdn.co/image/ab67616d0000b2735d9f44aad41cfdf90f4d039a",
+                        "url": "https://i.scdn.co/image/ab67616d0000b2730ab4d3e1c0b5c5e453287a4c",
                         "width": 640
                     },
                     {
                         "height": 300,
-                        "url": "https://i.scdn.co/image/ab67616d00001e025d9f44aad41cfdf90f4d039a",
+                        "url": "https://i.scdn.co/image/ab67616d00001e020ab4d3e1c0b5c5e453287a4c",
                         "width": 300
                     },
                     {
                         "height": 64,
-                        "url": "https://i.scdn.co/image/ab67616d000048515d9f44aad41cfdf90f4d039a",
+                        "url": "https://i.scdn.co/image/ab67616d000048510ab4d3e1c0b5c5e453287a4c",
                         "width": 64
                     }
                 ],
-                "name": "Borderline",
-                "release_date": "2020-01-29",
+                "name": "For Broken Ears",
+                "release_date": "2020-09-25",
                 "release_date_precision": "day",
                 "total_tracks": 7,
                 "type": "album",
-                "uri": "spotify:album:5qoVwu8l7VyXOiMjjmyeAD"
+                "uri": "spotify:album:2sU8ByeYc5BOBFNDr58CGV"
             },
             "artists": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/4uaGojdWj4H6cTJydZUPWG"
+                        "spotify": "https://open.spotify.com/artist/687cZJR45JO7jhk1LHIbgq"
                     },
-                    "href": "https://api.spotify.com/v1/artists/4uaGojdWj4H6cTJydZUPWG",
-                    "id": "4uaGojdWj4H6cTJydZUPWG",
-                    "name": "Christian Kuria",
+                    "href": "https://api.spotify.com/v1/artists/687cZJR45JO7jhk1LHIbgq",
+                    "id": "687cZJR45JO7jhk1LHIbgq",
+                    "name": "Tems",
                     "type": "artist",
-                    "uri": "spotify:artist:4uaGojdWj4H6cTJydZUPWG"
+                    "uri": "spotify:artist:687cZJR45JO7jhk1LHIbgq"
                 }
             ],
             "available_markets": [
@@ -876,460 +896,23 @@
                 "XK"
             ],
             "disc_number": 1,
-            "duration_ms": 277500,
+            "duration_ms": 196204,
             "explicit": false,
             "external_ids": {
-                "isrc": "TCADZ1858339"
+                "isrc": "QMBZ92014857"
             },
             "external_urls": {
-                "spotify": "https://open.spotify.com/track/3GP7l2bmXT6T2FNAzERwBr"
+                "spotify": "https://open.spotify.com/track/2QdSb68BzZGMgCbsrFmSLc"
             },
-            "href": "https://api.spotify.com/v1/tracks/3GP7l2bmXT6T2FNAzERwBr",
-            "id": "3GP7l2bmXT6T2FNAzERwBr",
+            "href": "https://api.spotify.com/v1/tracks/2QdSb68BzZGMgCbsrFmSLc",
+            "id": "2QdSb68BzZGMgCbsrFmSLc",
             "is_local": false,
-            "name": "Too Good",
-            "popularity": 63,
-            "preview_url": "https://p.scdn.co/mp3-preview/bf4bc95c11305c9e59d0c3a5ec0f72c535936e9d?cid=c7d8869f7af34cbf8087e1c2e446b38a",
-            "track_number": 4,
-            "type": "track",
-            "uri": "spotify:track:3GP7l2bmXT6T2FNAzERwBr"
-        },
-        {
-            "album": {
-                "album_type": "ALBUM",
-                "artists": [
-                    {
-                        "external_urls": {
-                            "spotify": "https://open.spotify.com/artist/12trz2INGglrKMzLmg0y2C"
-                        },
-                        "href": "https://api.spotify.com/v1/artists/12trz2INGglrKMzLmg0y2C",
-                        "id": "12trz2INGglrKMzLmg0y2C",
-                        "name": "Emotional Oranges",
-                        "type": "artist",
-                        "uri": "spotify:artist:12trz2INGglrKMzLmg0y2C"
-                    }
-                ],
-                "available_markets": [
-                    "AR",
-                    "AU",
-                    "AT",
-                    "BE",
-                    "BO",
-                    "BR",
-                    "BG",
-                    "CA",
-                    "CL",
-                    "CO",
-                    "CR",
-                    "CY",
-                    "CZ",
-                    "DK",
-                    "DO",
-                    "DE",
-                    "EC",
-                    "EE",
-                    "SV",
-                    "FI",
-                    "FR",
-                    "GR",
-                    "GT",
-                    "HN",
-                    "HK",
-                    "HU",
-                    "IS",
-                    "IE",
-                    "IT",
-                    "LV",
-                    "LT",
-                    "LU",
-                    "MY",
-                    "MT",
-                    "MX",
-                    "NL",
-                    "NZ",
-                    "NI",
-                    "NO",
-                    "PA",
-                    "PY",
-                    "PE",
-                    "PH",
-                    "PL",
-                    "PT",
-                    "SG",
-                    "SK",
-                    "ES",
-                    "SE",
-                    "CH",
-                    "TW",
-                    "TR",
-                    "UY",
-                    "US",
-                    "GB",
-                    "AD",
-                    "LI",
-                    "MC",
-                    "ID",
-                    "JP",
-                    "TH",
-                    "VN",
-                    "RO",
-                    "IL",
-                    "ZA",
-                    "SA",
-                    "AE",
-                    "BH",
-                    "QA",
-                    "OM",
-                    "KW",
-                    "EG",
-                    "MA",
-                    "DZ",
-                    "TN",
-                    "LB",
-                    "JO",
-                    "PS",
-                    "IN",
-                    "KZ",
-                    "MD",
-                    "UA",
-                    "AL",
-                    "BA",
-                    "HR",
-                    "ME",
-                    "MK",
-                    "RS",
-                    "SI",
-                    "KR",
-                    "BD",
-                    "PK",
-                    "LK",
-                    "GH",
-                    "KE",
-                    "NG",
-                    "TZ",
-                    "UG",
-                    "AG",
-                    "AM",
-                    "BS",
-                    "BB",
-                    "BZ",
-                    "BT",
-                    "BW",
-                    "CV",
-                    "CW",
-                    "DM",
-                    "FJ",
-                    "GM",
-                    "GE",
-                    "GD",
-                    "GW",
-                    "GY",
-                    "HT",
-                    "JM",
-                    "KI",
-                    "LS",
-                    "LR",
-                    "MW",
-                    "MV",
-                    "ML",
-                    "MH",
-                    "FM",
-                    "NA",
-                    "NR",
-                    "NE",
-                    "PW",
-                    "PG",
-                    "WS",
-                    "SM",
-                    "ST",
-                    "SN",
-                    "SC",
-                    "SL",
-                    "SB",
-                    "KN",
-                    "LC",
-                    "VC",
-                    "SR",
-                    "TL",
-                    "TO",
-                    "TT",
-                    "TV",
-                    "VU",
-                    "AZ",
-                    "BI",
-                    "KH",
-                    "CM",
-                    "TD",
-                    "KM",
-                    "GQ",
-                    "SZ",
-                    "GA",
-                    "GN",
-                    "KG",
-                    "LA",
-                    "MO",
-                    "MR",
-                    "MN",
-                    "RW",
-                    "TG",
-                    "ZW",
-                    "BJ",
-                    "MG",
-                    "MU",
-                    "MZ",
-                    "AO",
-                    "CI",
-                    "DJ",
-                    "ZM",
-                    "CD",
-                    "CG",
-                    "IQ",
-                    "LY",
-                    "TJ",
-                    "VE",
-                    "ET",
-                    "XK"
-                ],
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/album/6q8BNcH6wkWwWC0fGoJwkS"
-                },
-                "href": "https://api.spotify.com/v1/albums/6q8BNcH6wkWwWC0fGoJwkS",
-                "id": "6q8BNcH6wkWwWC0fGoJwkS",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab67616d0000b273341a47b9de6f523f1969e9a2",
-                        "width": 640
-                    },
-                    {
-                        "height": 300,
-                        "url": "https://i.scdn.co/image/ab67616d00001e02341a47b9de6f523f1969e9a2",
-                        "width": 300
-                    },
-                    {
-                        "height": 64,
-                        "url": "https://i.scdn.co/image/ab67616d00004851341a47b9de6f523f1969e9a2",
-                        "width": 64
-                    }
-                ],
-                "name": "The Juice: Vol. II",
-                "release_date": "2019-11-08",
-                "release_date_precision": "day",
-                "total_tracks": 8,
-                "type": "album",
-                "uri": "spotify:album:6q8BNcH6wkWwWC0fGoJwkS"
-            },
-            "artists": [
-                {
-                    "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/12trz2INGglrKMzLmg0y2C"
-                    },
-                    "href": "https://api.spotify.com/v1/artists/12trz2INGglrKMzLmg0y2C",
-                    "id": "12trz2INGglrKMzLmg0y2C",
-                    "name": "Emotional Oranges",
-                    "type": "artist",
-                    "uri": "spotify:artist:12trz2INGglrKMzLmg0y2C"
-                }
-            ],
-            "available_markets": [
-                "AR",
-                "AU",
-                "AT",
-                "BE",
-                "BO",
-                "BR",
-                "BG",
-                "CA",
-                "CL",
-                "CO",
-                "CR",
-                "CY",
-                "CZ",
-                "DK",
-                "DO",
-                "DE",
-                "EC",
-                "EE",
-                "SV",
-                "FI",
-                "FR",
-                "GR",
-                "GT",
-                "HN",
-                "HK",
-                "HU",
-                "IS",
-                "IE",
-                "IT",
-                "LV",
-                "LT",
-                "LU",
-                "MY",
-                "MT",
-                "MX",
-                "NL",
-                "NZ",
-                "NI",
-                "NO",
-                "PA",
-                "PY",
-                "PE",
-                "PH",
-                "PL",
-                "PT",
-                "SG",
-                "SK",
-                "ES",
-                "SE",
-                "CH",
-                "TW",
-                "TR",
-                "UY",
-                "US",
-                "GB",
-                "AD",
-                "LI",
-                "MC",
-                "ID",
-                "JP",
-                "TH",
-                "VN",
-                "RO",
-                "IL",
-                "ZA",
-                "SA",
-                "AE",
-                "BH",
-                "QA",
-                "OM",
-                "KW",
-                "EG",
-                "MA",
-                "DZ",
-                "TN",
-                "LB",
-                "JO",
-                "PS",
-                "IN",
-                "KZ",
-                "MD",
-                "UA",
-                "AL",
-                "BA",
-                "HR",
-                "ME",
-                "MK",
-                "RS",
-                "SI",
-                "KR",
-                "BD",
-                "PK",
-                "LK",
-                "GH",
-                "KE",
-                "NG",
-                "TZ",
-                "UG",
-                "AG",
-                "AM",
-                "BS",
-                "BB",
-                "BZ",
-                "BT",
-                "BW",
-                "CV",
-                "CW",
-                "DM",
-                "FJ",
-                "GM",
-                "GE",
-                "GD",
-                "GW",
-                "GY",
-                "HT",
-                "JM",
-                "KI",
-                "LS",
-                "LR",
-                "MW",
-                "MV",
-                "ML",
-                "MH",
-                "FM",
-                "NA",
-                "NR",
-                "NE",
-                "PW",
-                "PG",
-                "WS",
-                "SM",
-                "ST",
-                "SN",
-                "SC",
-                "SL",
-                "SB",
-                "KN",
-                "LC",
-                "VC",
-                "SR",
-                "TL",
-                "TO",
-                "TT",
-                "TV",
-                "VU",
-                "AZ",
-                "BI",
-                "KH",
-                "CM",
-                "TD",
-                "KM",
-                "GQ",
-                "SZ",
-                "GA",
-                "GN",
-                "KG",
-                "LA",
-                "MO",
-                "MR",
-                "MN",
-                "RW",
-                "TG",
-                "ZW",
-                "BJ",
-                "MG",
-                "MU",
-                "MZ",
-                "AO",
-                "CI",
-                "DJ",
-                "ZM",
-                "CD",
-                "CG",
-                "IQ",
-                "LY",
-                "TJ",
-                "VE",
-                "ET",
-                "XK"
-            ],
-            "disc_number": 1,
-            "duration_ms": 215386,
-            "explicit": false,
-            "external_ids": {
-                "isrc": "USUM71922036"
-            },
-            "external_urls": {
-                "spotify": "https://open.spotify.com/track/4NFD9ea0uH0MtoC30yNYE1"
-            },
-            "href": "https://api.spotify.com/v1/tracks/4NFD9ea0uH0MtoC30yNYE1",
-            "id": "4NFD9ea0uH0MtoC30yNYE1",
-            "is_local": false,
-            "name": "West Coast Love",
-            "popularity": 66,
-            "preview_url": null,
+            "name": "Higher",
+            "popularity": 76,
+            "preview_url": "https://p.scdn.co/mp3-preview/31f167f8a97fa38bb37ebf1c3ad1b4747250e466?cid=c7d8869f7af34cbf8087e1c2e446b38a",
             "track_number": 5,
             "type": "track",
-            "uri": "spotify:track:4NFD9ea0uH0MtoC30yNYE1"
+            "uri": "spotify:track:2QdSb68BzZGMgCbsrFmSLc"
         },
         {
             "album": {
@@ -1337,13 +920,13 @@
                 "artists": [
                     {
                         "external_urls": {
-                            "spotify": "https://open.spotify.com/artist/0hDjKSKjl1DC7ovYTDJHe8"
+                            "spotify": "https://open.spotify.com/artist/4ovtyvs7j1jSmwhkBGHqSr"
                         },
-                        "href": "https://api.spotify.com/v1/artists/0hDjKSKjl1DC7ovYTDJHe8",
-                        "id": "0hDjKSKjl1DC7ovYTDJHe8",
-                        "name": "Bruno Major",
+                        "href": "https://api.spotify.com/v1/artists/4ovtyvs7j1jSmwhkBGHqSr",
+                        "id": "4ovtyvs7j1jSmwhkBGHqSr",
+                        "name": "Olamide",
                         "type": "artist",
-                        "uri": "spotify:artist:0hDjKSKjl1DC7ovYTDJHe8"
+                        "uri": "spotify:artist:4ovtyvs7j1jSmwhkBGHqSr"
                     }
                 ],
                 "available_markets": [
@@ -1533,44 +1116,54 @@
                     "XK"
                 ],
                 "external_urls": {
-                    "spotify": "https://open.spotify.com/album/3IGPQEGAiZZI4Iba81GNq5"
+                    "spotify": "https://open.spotify.com/album/51mowf1u3WaEYvqalsbP7M"
                 },
-                "href": "https://api.spotify.com/v1/albums/3IGPQEGAiZZI4Iba81GNq5",
-                "id": "3IGPQEGAiZZI4Iba81GNq5",
+                "href": "https://api.spotify.com/v1/albums/51mowf1u3WaEYvqalsbP7M",
+                "id": "51mowf1u3WaEYvqalsbP7M",
                 "images": [
                     {
                         "height": 640,
-                        "url": "https://i.scdn.co/image/ab67616d0000b273a74b5540eb5322f0bca74c7d",
+                        "url": "https://i.scdn.co/image/ab67616d0000b27371e67220f3c56980c2187489",
                         "width": 640
                     },
                     {
                         "height": 300,
-                        "url": "https://i.scdn.co/image/ab67616d00001e02a74b5540eb5322f0bca74c7d",
+                        "url": "https://i.scdn.co/image/ab67616d00001e0271e67220f3c56980c2187489",
                         "width": 300
                     },
                     {
                         "height": 64,
-                        "url": "https://i.scdn.co/image/ab67616d00004851a74b5540eb5322f0bca74c7d",
+                        "url": "https://i.scdn.co/image/ab67616d0000485171e67220f3c56980c2187489",
                         "width": 64
                     }
                 ],
-                "name": "A Song For Every Moon",
-                "release_date": "2017-08-31",
+                "name": "Unruly",
+                "release_date": "2023-08-08",
                 "release_date_precision": "day",
-                "total_tracks": 12,
+                "total_tracks": 15,
                 "type": "album",
-                "uri": "spotify:album:3IGPQEGAiZZI4Iba81GNq5"
+                "uri": "spotify:album:51mowf1u3WaEYvqalsbP7M"
             },
             "artists": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/0hDjKSKjl1DC7ovYTDJHe8"
+                        "spotify": "https://open.spotify.com/artist/4ovtyvs7j1jSmwhkBGHqSr"
                     },
-                    "href": "https://api.spotify.com/v1/artists/0hDjKSKjl1DC7ovYTDJHe8",
-                    "id": "0hDjKSKjl1DC7ovYTDJHe8",
-                    "name": "Bruno Major",
+                    "href": "https://api.spotify.com/v1/artists/4ovtyvs7j1jSmwhkBGHqSr",
+                    "id": "4ovtyvs7j1jSmwhkBGHqSr",
+                    "name": "Olamide",
                     "type": "artist",
-                    "uri": "spotify:artist:0hDjKSKjl1DC7ovYTDJHe8"
+                    "uri": "spotify:artist:4ovtyvs7j1jSmwhkBGHqSr"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/46pWGuE3dSwY3bMMXGBvVS"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/46pWGuE3dSwY3bMMXGBvVS",
+                    "id": "46pWGuE3dSwY3bMMXGBvVS",
+                    "name": "Rema",
+                    "type": "artist",
+                    "uri": "spotify:artist:46pWGuE3dSwY3bMMXGBvVS"
                 }
             ],
             "available_markets": [
@@ -1760,23 +1353,470 @@
                 "XK"
             ],
             "disc_number": 1,
-            "duration_ms": 210240,
-            "explicit": false,
+            "duration_ms": 227448,
+            "explicit": true,
             "external_ids": {
-                "isrc": "GBKPL1674673"
+                "isrc": "USUYG1490765"
             },
             "external_urls": {
-                "spotify": "https://open.spotify.com/track/0RnxpSzxzwZgFQ0NahQr9K"
+                "spotify": "https://open.spotify.com/track/5kYxdQaX15bCWOltfEUmvM"
             },
-            "href": "https://api.spotify.com/v1/tracks/0RnxpSzxzwZgFQ0NahQr9K",
-            "id": "0RnxpSzxzwZgFQ0NahQr9K",
+            "href": "https://api.spotify.com/v1/tracks/5kYxdQaX15bCWOltfEUmvM",
+            "id": "5kYxdQaX15bCWOltfEUmvM",
             "is_local": false,
-            "name": "Easily",
-            "popularity": 72,
-            "preview_url": "https://p.scdn.co/mp3-preview/b0e4f7d90177840ab0afbb94c7bd4eaac5c8271b?cid=c7d8869f7af34cbf8087e1c2e446b38a",
+            "name": "Mukulu",
+            "popularity": 52,
+            "preview_url": "https://p.scdn.co/mp3-preview/3aa51aae48a5a0dddb84f19b379140b580a6bd7d?cid=c7d8869f7af34cbf8087e1c2e446b38a",
+            "track_number": 10,
+            "type": "track",
+            "uri": "spotify:track:5kYxdQaX15bCWOltfEUmvM"
+        },
+        {
+            "album": {
+                "album_type": "ALBUM",
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/1E5hfn5BduN2nnoZCJmUVG"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/1E5hfn5BduN2nnoZCJmUVG",
+                        "id": "1E5hfn5BduN2nnoZCJmUVG",
+                        "name": "Victony",
+                        "type": "artist",
+                        "uri": "spotify:artist:1E5hfn5BduN2nnoZCJmUVG"
+                    }
+                ],
+                "available_markets": [
+                    "AR",
+                    "AU",
+                    "AT",
+                    "BE",
+                    "BO",
+                    "BR",
+                    "BG",
+                    "CA",
+                    "CL",
+                    "CO",
+                    "CR",
+                    "CY",
+                    "CZ",
+                    "DK",
+                    "DO",
+                    "DE",
+                    "EC",
+                    "EE",
+                    "SV",
+                    "FI",
+                    "FR",
+                    "GR",
+                    "GT",
+                    "HN",
+                    "HK",
+                    "HU",
+                    "IS",
+                    "IE",
+                    "IT",
+                    "LV",
+                    "LT",
+                    "LU",
+                    "MY",
+                    "MT",
+                    "MX",
+                    "NL",
+                    "NZ",
+                    "NI",
+                    "NO",
+                    "PA",
+                    "PY",
+                    "PE",
+                    "PH",
+                    "PL",
+                    "PT",
+                    "SG",
+                    "SK",
+                    "ES",
+                    "SE",
+                    "CH",
+                    "TW",
+                    "TR",
+                    "UY",
+                    "US",
+                    "GB",
+                    "AD",
+                    "LI",
+                    "MC",
+                    "ID",
+                    "JP",
+                    "TH",
+                    "VN",
+                    "RO",
+                    "IL",
+                    "ZA",
+                    "SA",
+                    "AE",
+                    "BH",
+                    "QA",
+                    "OM",
+                    "KW",
+                    "EG",
+                    "MA",
+                    "DZ",
+                    "TN",
+                    "LB",
+                    "JO",
+                    "PS",
+                    "IN",
+                    "BY",
+                    "KZ",
+                    "MD",
+                    "UA",
+                    "AL",
+                    "BA",
+                    "HR",
+                    "ME",
+                    "MK",
+                    "RS",
+                    "SI",
+                    "KR",
+                    "BD",
+                    "PK",
+                    "LK",
+                    "GH",
+                    "KE",
+                    "NG",
+                    "TZ",
+                    "UG",
+                    "AG",
+                    "AM",
+                    "BS",
+                    "BB",
+                    "BZ",
+                    "BT",
+                    "BW",
+                    "BF",
+                    "CV",
+                    "CW",
+                    "DM",
+                    "FJ",
+                    "GM",
+                    "GE",
+                    "GD",
+                    "GW",
+                    "GY",
+                    "HT",
+                    "JM",
+                    "KI",
+                    "LS",
+                    "LR",
+                    "MW",
+                    "MV",
+                    "ML",
+                    "MH",
+                    "FM",
+                    "NA",
+                    "NR",
+                    "NE",
+                    "PW",
+                    "PG",
+                    "WS",
+                    "SM",
+                    "ST",
+                    "SN",
+                    "SC",
+                    "SL",
+                    "SB",
+                    "KN",
+                    "LC",
+                    "VC",
+                    "SR",
+                    "TL",
+                    "TO",
+                    "TT",
+                    "TV",
+                    "VU",
+                    "AZ",
+                    "BN",
+                    "BI",
+                    "KH",
+                    "CM",
+                    "TD",
+                    "KM",
+                    "GQ",
+                    "SZ",
+                    "GA",
+                    "GN",
+                    "KG",
+                    "LA",
+                    "MO",
+                    "MR",
+                    "MN",
+                    "NP",
+                    "RW",
+                    "TG",
+                    "UZ",
+                    "ZW",
+                    "BJ",
+                    "MG",
+                    "MU",
+                    "MZ",
+                    "AO",
+                    "CI",
+                    "DJ",
+                    "ZM",
+                    "CD",
+                    "CG",
+                    "IQ",
+                    "LY",
+                    "TJ",
+                    "VE",
+                    "ET",
+                    "XK"
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/1oSN6MKvpXR5WOHnsPi05w"
+                },
+                "href": "https://api.spotify.com/v1/albums/1oSN6MKvpXR5WOHnsPi05w",
+                "id": "1oSN6MKvpXR5WOHnsPi05w",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b273ffa365c97c50f7343d09d49c",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e02ffa365c97c50f7343d09d49c",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d00004851ffa365c97c50f7343d09d49c",
+                        "width": 64
+                    }
+                ],
+                "name": "Outlaw",
+                "release_date": "2022-05-06",
+                "release_date_precision": "day",
+                "total_tracks": 7,
+                "type": "album",
+                "uri": "spotify:album:1oSN6MKvpXR5WOHnsPi05w"
+            },
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1E5hfn5BduN2nnoZCJmUVG"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1E5hfn5BduN2nnoZCJmUVG",
+                    "id": "1E5hfn5BduN2nnoZCJmUVG",
+                    "name": "Victony",
+                    "type": "artist",
+                    "uri": "spotify:artist:1E5hfn5BduN2nnoZCJmUVG"
+                }
+            ],
+            "available_markets": [
+                "AR",
+                "AU",
+                "AT",
+                "BE",
+                "BO",
+                "BR",
+                "BG",
+                "CA",
+                "CL",
+                "CO",
+                "CR",
+                "CY",
+                "CZ",
+                "DK",
+                "DO",
+                "DE",
+                "EC",
+                "EE",
+                "SV",
+                "FI",
+                "FR",
+                "GR",
+                "GT",
+                "HN",
+                "HK",
+                "HU",
+                "IS",
+                "IE",
+                "IT",
+                "LV",
+                "LT",
+                "LU",
+                "MY",
+                "MT",
+                "MX",
+                "NL",
+                "NZ",
+                "NI",
+                "NO",
+                "PA",
+                "PY",
+                "PE",
+                "PH",
+                "PL",
+                "PT",
+                "SG",
+                "SK",
+                "ES",
+                "SE",
+                "CH",
+                "TW",
+                "TR",
+                "UY",
+                "US",
+                "GB",
+                "AD",
+                "LI",
+                "MC",
+                "ID",
+                "JP",
+                "TH",
+                "VN",
+                "RO",
+                "IL",
+                "ZA",
+                "SA",
+                "AE",
+                "BH",
+                "QA",
+                "OM",
+                "KW",
+                "EG",
+                "MA",
+                "DZ",
+                "TN",
+                "LB",
+                "JO",
+                "PS",
+                "IN",
+                "BY",
+                "KZ",
+                "MD",
+                "UA",
+                "AL",
+                "BA",
+                "HR",
+                "ME",
+                "MK",
+                "RS",
+                "SI",
+                "KR",
+                "BD",
+                "PK",
+                "LK",
+                "GH",
+                "KE",
+                "NG",
+                "TZ",
+                "UG",
+                "AG",
+                "AM",
+                "BS",
+                "BB",
+                "BZ",
+                "BT",
+                "BW",
+                "BF",
+                "CV",
+                "CW",
+                "DM",
+                "FJ",
+                "GM",
+                "GE",
+                "GD",
+                "GW",
+                "GY",
+                "HT",
+                "JM",
+                "KI",
+                "LS",
+                "LR",
+                "MW",
+                "MV",
+                "ML",
+                "MH",
+                "FM",
+                "NA",
+                "NR",
+                "NE",
+                "PW",
+                "PG",
+                "WS",
+                "SM",
+                "ST",
+                "SN",
+                "SC",
+                "SL",
+                "SB",
+                "KN",
+                "LC",
+                "VC",
+                "SR",
+                "TL",
+                "TO",
+                "TT",
+                "TV",
+                "VU",
+                "AZ",
+                "BN",
+                "BI",
+                "KH",
+                "CM",
+                "TD",
+                "KM",
+                "GQ",
+                "SZ",
+                "GA",
+                "GN",
+                "KG",
+                "LA",
+                "MO",
+                "MR",
+                "MN",
+                "NP",
+                "RW",
+                "TG",
+                "UZ",
+                "ZW",
+                "BJ",
+                "MG",
+                "MU",
+                "MZ",
+                "AO",
+                "CI",
+                "DJ",
+                "ZM",
+                "CD",
+                "CG",
+                "IQ",
+                "LY",
+                "TJ",
+                "VE",
+                "ET",
+                "XK"
+            ],
+            "disc_number": 1,
+            "duration_ms": 192284,
+            "explicit": true,
+            "external_ids": {
+                "isrc": "QZAKB2164095"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/0FL3a257gQiLq4FqouZQJt"
+            },
+            "href": "https://api.spotify.com/v1/tracks/0FL3a257gQiLq4FqouZQJt",
+            "id": "0FL3a257gQiLq4FqouZQJt",
+            "is_local": false,
+            "name": "All Power",
+            "popularity": 58,
+            "preview_url": "https://p.scdn.co/mp3-preview/3e77e08651f3abbaeaff8a2afe5a3f94538a345b?cid=c7d8869f7af34cbf8087e1c2e446b38a",
             "track_number": 4,
             "type": "track",
-            "uri": "spotify:track:0RnxpSzxzwZgFQ0NahQr9K"
+            "uri": "spotify:track:0FL3a257gQiLq4FqouZQJt"
         },
         {
             "album": {
@@ -1784,23 +1824,23 @@
                 "artists": [
                     {
                         "external_urls": {
-                            "spotify": "https://open.spotify.com/artist/3IJ21966TwNZI24MwZHMu4"
+                            "spotify": "https://open.spotify.com/artist/6MDME20pz9RveH9rEXvrOM"
                         },
-                        "href": "https://api.spotify.com/v1/artists/3IJ21966TwNZI24MwZHMu4",
-                        "id": "3IJ21966TwNZI24MwZHMu4",
-                        "name": "Baby Tate",
+                        "href": "https://api.spotify.com/v1/artists/6MDME20pz9RveH9rEXvrOM",
+                        "id": "6MDME20pz9RveH9rEXvrOM",
+                        "name": "Clean Bandit",
                         "type": "artist",
-                        "uri": "spotify:artist:3IJ21966TwNZI24MwZHMu4"
+                        "uri": "spotify:artist:6MDME20pz9RveH9rEXvrOM"
                     },
                     {
                         "external_urls": {
-                            "spotify": "https://open.spotify.com/artist/68tR0TsEKX89ID4fyBMgch"
+                            "spotify": "https://open.spotify.com/artist/4k1cMkJjG3UCRptckbpAnC"
                         },
-                        "href": "https://api.spotify.com/v1/artists/68tR0TsEKX89ID4fyBMgch",
-                        "id": "68tR0TsEKX89ID4fyBMgch",
-                        "name": "James Vickery",
+                        "href": "https://api.spotify.com/v1/artists/4k1cMkJjG3UCRptckbpAnC",
+                        "id": "4k1cMkJjG3UCRptckbpAnC",
+                        "name": "French The Kid",
                         "type": "artist",
-                        "uri": "spotify:artist:68tR0TsEKX89ID4fyBMgch"
+                        "uri": "spotify:artist:4k1cMkJjG3UCRptckbpAnC"
                     }
                 ],
                 "available_markets": [
@@ -1883,7 +1923,6 @@
                     "JO",
                     "PS",
                     "IN",
-                    "BY",
                     "KZ",
                     "MD",
                     "UA",
@@ -1990,54 +2029,64 @@
                     "XK"
                 ],
                 "external_urls": {
-                    "spotify": "https://open.spotify.com/album/5mAndmKGkXWSwNFHywzB5e"
+                    "spotify": "https://open.spotify.com/album/0NZbQYjlvpJpiCVOGgXQXH"
                 },
-                "href": "https://api.spotify.com/v1/albums/5mAndmKGkXWSwNFHywzB5e",
-                "id": "5mAndmKGkXWSwNFHywzB5e",
+                "href": "https://api.spotify.com/v1/albums/0NZbQYjlvpJpiCVOGgXQXH",
+                "id": "0NZbQYjlvpJpiCVOGgXQXH",
                 "images": [
                     {
                         "height": 640,
-                        "url": "https://i.scdn.co/image/ab67616d0000b273a6d58b63f19c2a4575824344",
+                        "url": "https://i.scdn.co/image/ab67616d0000b273f7c841175271dd91cd89e407",
                         "width": 640
                     },
                     {
                         "height": 300,
-                        "url": "https://i.scdn.co/image/ab67616d00001e02a6d58b63f19c2a4575824344",
+                        "url": "https://i.scdn.co/image/ab67616d00001e02f7c841175271dd91cd89e407",
                         "width": 300
                     },
                     {
                         "height": 64,
-                        "url": "https://i.scdn.co/image/ab67616d00004851a6d58b63f19c2a4575824344",
+                        "url": "https://i.scdn.co/image/ab67616d00004851f7c841175271dd91cd89e407",
                         "width": 64
                     }
                 ],
-                "name": "Hourglass",
-                "release_date": "2021-09-02",
+                "name": "Sad Girls (feat. Rema)",
+                "release_date": "2022-09-09",
                 "release_date_precision": "day",
                 "total_tracks": 1,
                 "type": "album",
-                "uri": "spotify:album:5mAndmKGkXWSwNFHywzB5e"
+                "uri": "spotify:album:0NZbQYjlvpJpiCVOGgXQXH"
             },
             "artists": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/3IJ21966TwNZI24MwZHMu4"
+                        "spotify": "https://open.spotify.com/artist/6MDME20pz9RveH9rEXvrOM"
                     },
-                    "href": "https://api.spotify.com/v1/artists/3IJ21966TwNZI24MwZHMu4",
-                    "id": "3IJ21966TwNZI24MwZHMu4",
-                    "name": "Baby Tate",
+                    "href": "https://api.spotify.com/v1/artists/6MDME20pz9RveH9rEXvrOM",
+                    "id": "6MDME20pz9RveH9rEXvrOM",
+                    "name": "Clean Bandit",
                     "type": "artist",
-                    "uri": "spotify:artist:3IJ21966TwNZI24MwZHMu4"
+                    "uri": "spotify:artist:6MDME20pz9RveH9rEXvrOM"
                 },
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/68tR0TsEKX89ID4fyBMgch"
+                        "spotify": "https://open.spotify.com/artist/4k1cMkJjG3UCRptckbpAnC"
                     },
-                    "href": "https://api.spotify.com/v1/artists/68tR0TsEKX89ID4fyBMgch",
-                    "id": "68tR0TsEKX89ID4fyBMgch",
-                    "name": "James Vickery",
+                    "href": "https://api.spotify.com/v1/artists/4k1cMkJjG3UCRptckbpAnC",
+                    "id": "4k1cMkJjG3UCRptckbpAnC",
+                    "name": "French The Kid",
                     "type": "artist",
-                    "uri": "spotify:artist:68tR0TsEKX89ID4fyBMgch"
+                    "uri": "spotify:artist:4k1cMkJjG3UCRptckbpAnC"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/46pWGuE3dSwY3bMMXGBvVS"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/46pWGuE3dSwY3bMMXGBvVS",
+                    "id": "46pWGuE3dSwY3bMMXGBvVS",
+                    "name": "Rema",
+                    "type": "artist",
+                    "uri": "spotify:artist:46pWGuE3dSwY3bMMXGBvVS"
                 }
             ],
             "available_markets": [
@@ -2120,7 +2169,6 @@
                 "JO",
                 "PS",
                 "IN",
-                "BY",
                 "KZ",
                 "MD",
                 "UA",
@@ -2227,41 +2275,57 @@
                 "XK"
             ],
             "disc_number": 1,
-            "duration_ms": 174092,
-            "explicit": false,
+            "duration_ms": 163472,
+            "explicit": true,
             "external_ids": {
-                "isrc": "GBKPL2161812"
+                "isrc": "GBAHS2201057"
             },
             "external_urls": {
-                "spotify": "https://open.spotify.com/track/7udNt8rbaYcuYKaAtkA8qn"
+                "spotify": "https://open.spotify.com/track/2lN5P2zk7ZHpxCutNHSndT"
             },
-            "href": "https://api.spotify.com/v1/tracks/7udNt8rbaYcuYKaAtkA8qn",
-            "id": "7udNt8rbaYcuYKaAtkA8qn",
+            "href": "https://api.spotify.com/v1/tracks/2lN5P2zk7ZHpxCutNHSndT",
+            "id": "2lN5P2zk7ZHpxCutNHSndT",
             "is_local": false,
-            "name": "Hourglass",
-            "popularity": 42,
-            "preview_url": "https://p.scdn.co/mp3-preview/78aa17a9cacdaf4e10fac8ad211a60954d5480b8?cid=c7d8869f7af34cbf8087e1c2e446b38a",
+            "name": "Sad Girls (feat. Rema)",
+            "popularity": 50,
+            "preview_url": "https://p.scdn.co/mp3-preview/4d31552a59aa3c4c9c203aba56dab37ae34989e0?cid=c7d8869f7af34cbf8087e1c2e446b38a",
             "track_number": 1,
             "type": "track",
-            "uri": "spotify:track:7udNt8rbaYcuYKaAtkA8qn"
+            "uri": "spotify:track:2lN5P2zk7ZHpxCutNHSndT"
         }
     ],
     "seeds": [
         {
             "initialPoolSize": 500,
-            "afterFilteringSize": 500,
-            "afterRelinkingSize": 500,
-            "id": "6hfwwpXqZPRC9CsKI7qtv1",
+            "afterFilteringSize": 313,
+            "afterRelinkingSize": 313,
+            "id": "4nDoRrQiYLoBzwC5BhVJzF",
             "type": "ARTIST",
-            "href": "https://api.spotify.com/v1/artists/6hfwwpXqZPRC9CsKI7qtv1"
+            "href": "https://api.spotify.com/v1/artists/4nDoRrQiYLoBzwC5BhVJzF"
         },
         {
             "initialPoolSize": 500,
-            "afterFilteringSize": 500,
-            "afterRelinkingSize": 500,
-            "id": "4gEQcoKNoLFLyhory3Y5Zr",
+            "afterFilteringSize": 313,
+            "afterRelinkingSize": 313,
+            "id": "46pWGuE3dSwY3bMMXGBvVS",
+            "type": "ARTIST",
+            "href": "https://api.spotify.com/v1/artists/46pWGuE3dSwY3bMMXGBvVS"
+        },
+        {
+            "initialPoolSize": 500,
+            "afterFilteringSize": 313,
+            "afterRelinkingSize": 313,
+            "id": "1SJtlNRJDeYHioymcvsqev",
             "type": "TRACK",
-            "href": "https://api.spotify.com/v1/tracks/4gEQcoKNoLFLyhory3Y5Zr"
+            "href": "https://api.spotify.com/v1/tracks/1SJtlNRJDeYHioymcvsqev"
+        },
+        {
+            "initialPoolSize": 500,
+            "afterFilteringSize": 313,
+            "afterRelinkingSize": 313,
+            "id": "1s7oOCT8vauUh01PbJD6ps",
+            "type": "TRACK",
+            "href": "https://api.spotify.com/v1/tracks/1s7oOCT8vauUh01PbJD6ps"
         }
     ]
 }
