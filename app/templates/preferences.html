@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preferences</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Set Your Preferences</h1>
+        <form method="POST" action="{{ url_for('preferences') }}">
+            <div class="form-group" >
+                <label for="size"> size </label>
+                <input type="text" id="size" name="size" value="5">
+                <p class="parameter-description">
+                    The size of playlist (between 1 to 20)
+                </p>
+            </div>
+            <div class="form-group">
+                <label for="danceability">Danceability:</label>
+                <input type="text" id="danceability" name="danceability" value="0.5">
+                <p class="parameter-description">
+                    How suitable a track is for dancing
+                </p>
+            </div>
+            <div class="form-group">
+                <label for="acousticness">Acousticness:</label>
+                <input type="text" id="acousticness" name="acousticness" value="0.5">
+                <p class="parameter-description">
+                    How acoustic is a track
+                </p>
+            </div>
+            <div class="form-group">
+                <label for="energy">energy:</label>
+                <input type="text" id="energy" name="energy" value="0.5">
+                <p class="parameter-description">
+                    Perceptual measure of intensity and activity
+                </p>
+            </div>
+            <div class="form-group">
+                <label for="liveness">liveness:</label>
+                <input type="text" id="liveness" name="liveness" value="0.5">
+                <p class="parameter-description">
+                    Detects the presence of an audience in the recording
+                </p>
+            </div>
+            <div class="form-group">
+                <label for="loudness">loudness:</label>
+                <input type="text" id="loudness" name="loudness" value="-5.883">
+                <p class="parameter-description">
+                    Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typically range between -60 and 0 db.
+                </p>
+            </div>
+            <div class="form-group">
+                <label for="speechiness">speechiness:</label>
+                <input type="text" id="speechiness" name="speechiness" value="0.5">
+                <p class="parameter-description">
+                    Detects the presence of spoken words in a track
+                </p>
+            </div>
+            <div class="form-group">
+                <label for="tempo">tempo:</label>
+                <input type="text" id="tempo" name="tempo" value="116">
+                <p class="parameter-description">
+                    The overall estimated tempo of a track in beats per minute (BPM)
+                </p>
+            </div>
+            <div class="form-group">
+                <label for="valence">valence:</label>
+                <input type="text" id="valence" name="valence" value="0.5">
+                <p class="parameter-description">
+                    A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track
+                </p>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    {% if error %}
+    <div class="error">{{ error }}</div>
+    {% endif %}
+</body>
+</html>
